@@ -17,9 +17,9 @@ on:
       - "container/**"
       - ".github/workflows/container.yml"
 
-# defaults:
-#   run:
-#     working-directory: packages/container
+defaults:
+  run:
+    working-directory: packages/container
 
 jobs:
   build:
